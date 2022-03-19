@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+   background-color: aquamarine;
+   color: black;
+   font-size: 16px;
+   font-weight: 100;
+
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover{
+    /*------anchor tag eka udada mouse eka arn giyama-------*/
+    color: brown;
+}
+
+a:active{
+    /*------anchor tag eka click kalama-------*/
+ color: rgb(63, 165, 42);
+}
+
+a:visited{
+    /*------anchor tag eka click karala wena site ekakata giyama------*/
+ color: rgb(165, 42, 138);
+}
+
+
+.box-a{
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(226, 174, 106);
+   
+    /*------ border-------*/
+    border-width: 2px 3px 4px 5px;
+    border-color: black;
+    border-style: solid;
+
+    /*------border same as above using single line ------
+
+          border:5px red solid;    */
+
+
+    /*------ Padding (top|right|bottom|left)-------*/
+
+    padding: 5px 10px 15px 20px;
+
+    
+    /*------ Margine (top|right|bottom|left)-------*/
+
+    margin: 20px;
+
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+.box-a h2{
+      color: rgb(6, 6, 94);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-style: italic;
+      text-decoration: underline;
+      text-transform: capitalize;
+      letter-spacing: .1em;
+      word-spacing: 0.2em;
+
+
+}
+
+
+.box-b{
+    margin: 20px opx;
+    background-color: rgb(144, 226, 106);
+   
+    /*------ border-------*/
+    border-color: rgb(224, 26, 26);
+    border-style: dotted;
+
+    /*------border same as above using single line ------
+
+          border:5px red solid;    */
+
+
+    /*------ Padding (top|right|bottom|left)-------*/
+
+    padding: 5px ;
+
+    
+    /*------ Margine (top|right|bottom|left)-------*/
+
+    margin: 20px;
+
+}
+
+       /*list*/
+
+.categories{
+border: 6px rgb(255, 230, 0) solid;
+margin-bottom: 30px;
+border-radius: 9px;
+padding: 10px;
+height: 200px;
+
+}
+
+.categories h3{
+    text-align: center;
+    text-decoration: underline;
+    
+    }
+
+.A{
+       padding: 0px;
+       padding-left: 20px;
+       list-style: square;
+       position: absolute;
+        
+        }
+
+.B{
+            padding: 0px;
+            padding-left: 320px;
+            list-style: circle;
+         
+            margin-top: 25px;
+            
+             } 
+
+.A li{
+            padding: 10px;
+            border-bottom: rgb(2, 0, 0) dotted 4px;
+            
+            
+            
+            }
+.B li{
+    padding: 15px;
+    border-bottom: crimson dotted 2px;
+    display: inline-block;
+    font-weight:bold ;
+}
+
+/*.....form......*/
+.formA{
+    padding: 20px;
+    border: 5px blue solid;
+    border-radius: 25px;
+   
+
+}
+
+.formA .formA1{
+    padding-bottom: 15px;
+
+}
+
+.formA label{
+    display: block;
+}
+
+/*how to assign same style to the tags with same element name but differnt type name*/
+.formA input[type="text"],[type="email"]{
+
+    padding: 8px; 
+    width: 30%;
+    border-radius: 5px;
+}
+
+.formA textarea[name="message"]{
+
+    padding: 8px; 
+    width: 30%;
+    height: 55px;
+    border-radius: 5px;
+
+}
+
+
+
+.sbmtbtn{
+    
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(245, 6, 6);
+    border-color: rgb(50, 6, 247);
+    cursor: pointer;
+}
+
+.sbmtbtn:hover{
+      background-color: blueviolet;
+      color: aliceblue;
+
+}
+
+/*services section*/
+.raw{
+    width: 100%;
+    padding: 0;
+    margin: 20px;
+}
+.block{
+float: right;
+width: 30.33%;
+border: 1px black solid;
+padding: 10px;
+box-sizing: border-box;
+margin: 10px 1.5%;
+}
+
+/*main and sidebar section*/
+
+#main-block{
+    margin-top:25px ;
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#side-bar{
+    margin-top:25px ;
+    float: right;
+    width: 30%;
+    background-color: grey;
+    color: aliceblue;
+    padding: 10px;
+    box-sizing: border-box;
+}

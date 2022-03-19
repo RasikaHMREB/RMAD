@@ -1,0 +1,6 @@
+1.highlight the address bar and erace
+2.type cmd
+3.then type code . in control panel
+
+1.total html element (few letters of  element +tab)
+2.suggesions    (ctrl+spacebar)

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+      }
+
+.navbar{
+    background: rgba(190, 3, 28, 0.822);
+    height: 90px;
+}
+
+.navbar02{
+    position: absolute;
+    background: rgba(107, 100, 101, 0.822);
+    margin-top: 0;
+    height: 38px;
+    width: 770px;
+    top: 26px;
+    border-radius: 5px;
+    
+}
+
+.navbarlogo{
+    position: absolute;
+    float: left;
+    width: 112px;
+    border-radius: 10px;
+    left: 3px;
+    
+}
+
+.navigationbar-component{
+    float: right;
+    
+}
+
+.navigationbar-component li{
+    display: inline-block;  /* menu eke list component harahata liwimata*/
+    margin: 30px 10px ;
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+
+.navigationbar-component li:hover{
+    background: rgb(245, 245, 245); /*cursr eka arn giyama text eka wate bkgrnd eka */
+    transition: .3s;
+    color: rgb(253, 8, 8);/*cursr eka arn giyama text eke pata */
+    border-radius: 4px;
+    
+}
+
+
+
+.navbar-heading{
+
+    position: absolute;
+    left: 200px;
+    top: 12px;
+    font-size: 55px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/*.leftimagesection{   
+
+        flex-basis: 40%;
+        height: 100%;
+        position: relative;
+    
+}
+
+.leftimage{
+
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    
+}
+
+.nalandaleft-image {
+    position: absolute;
+    width: 555px;
+    border-radius: 10px;
+   
+    
+  
+}*/
+
+.rightsection{
+    flex-basis: 60%;
+    height: 100%;
+    position: relative;}
+
+.rightimage{
+
+        position: absolute;
+        left:  175px;
+        top: 15px;
+        
+    }
+
+.vision-mission-image {
+        position: absolute;
+        width: 1055px;
+        border-radius: 10px;
+       
+        
+      
+    }
+
+.bottom-line{
+    height: 4px;
+    width: 1345px;
+    background-color: #a8a2a2;
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 350px;
+
+}
+
+.iconbox{
+    position: absolute;
+    top: 370px;
+    width: 22px;
+  right: 35px;
+
+}
+
+.A{
+    width: 35px;
+    right: -540px;
+    margin-top: 5px;
+    
+}
